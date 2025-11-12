@@ -1,0 +1,99 @@
+
+  
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: arial, Helvetica, sans-serif;
+    }
+    
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+    .titulo{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    }
+    .slider-box{
+    width: 1250px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden; 
+    margin-bottom: 33px;
+    }
+
+    .slider-box ul {
+    display: flex;
+    padding:0;
+    width: 400%;
+    
+    }
+    .slider-box li {
+    width: 200%; 
+    list-style: none;
+    position: relative;
+    }
+    .slider-box h2 {
+        text-align:center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+
+    .texto{
+    text-align: justify;
+    position: absolute;
+    right: 100px;
+    padding:0 250px;
+    top: 250px;
+    color:#000000;
+    }
+    .texto p{
+        top: -230px;
+        position: absolute;
+        left: 30px;
+        font-family: 'Courier New', Courier, monospace;
+        margin-bottom: 35px;
+    }
+
+    .texto h2{
+    font-size: 45px;
+    margin-bottom: 35px;
+    }
+   
+    .slider-box img  {
+    width: 50%;
+    }
+    
+    @keyframes slide{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    
+    
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    
+    
+    50%{margin-left: -200%;}
+        70%{margin-left: -200%;}
+            
+            75%{margin-left: -300%;}
+                100%{margin-left: -300%;}
+       }
+                
+                @media (max-width: 991px) {
+    body{
+    padding: 30px;
+    }
+    .slider-box{
+    width: 100%;
+    }
+    .texto{
+    top: 50px;
+    padding: 25px;
+    }
+    .texto h2{
+    font-size: 35px;
+    margin-bottom: 15px;
+    }
+
+    }

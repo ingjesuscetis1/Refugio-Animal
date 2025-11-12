@@ -1,0 +1,42 @@
+.header1 {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0,0,0,0.7)),
+        url(img/perrofondo.jpeg) ;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 30vh;
+    display: flex;
+    align-items: center;
+    padding: 80px;
+}
+.header-content1 h1{
+    margin-top: 13px;
+    font-size: 75px;
+    line-height: 80px 0px;
+    color: #f9fafc;
+    text-transform: uppercase;
+}
+.gatos1 img{
+    position: relative;
+    right: 10px;
+    width: 500px;
+    top: 5px;
+    border-radius: 80%;
+}
+.gatos1{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+}
+.txt-g{
+    position: relative;
+    text-align:justify;
+
+}
+.txt-g ul{
+list-style-type: disc;
+}

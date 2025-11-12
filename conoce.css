@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    }
+    body {
+    font-family: "Poppins", sans-serif;
+}
+    .container{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+.header1 {
+    background-image: linear-gradient(
+        rgba(0,0,0,0.7),
+        rgba(0, 0, 0, 0.7)),
+        url(img/fondo.jpg) ;
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 100px;
+}
+.header-content {
+    text-align: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: #fffdfc;
+    font-size: 25px;
+    font-weight: 800;
+}
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+.menu .navbar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 600;
+}
+.menu .navbar ul li a:hover{
+    color: #6eb1dd;
+}
+#menu {
+    display: none;
+}
+.menu-icono {
+    width: 25px;
+}
+.menu label {
+    cursor:pointer;
+    display:none;
+}
+
+
+.dan p{
+    
+    color: rgb(255, 255, 255);
+    text-align: left;
+    position: relative;
+
+    font-size:x-large;
+    animation-name: anima;
+    animation-duration: 2s;
+    animation-direction:reverse;
+    animation-iteration-count:initial;
+}
+
+.pam p{
+    margin-top: 20px;
+    color: rgb(248, 246, 242);
+    text-align: right;
+    position: relative;
+  
+    font-size:x-large;
+    animation-name: anima;
+    animation-duration: 4s;
+    animation-direction:right;
+    animation-iteration-count:initial;
+}
+.agus {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    position: relative;
+      margin-top: 20px;
+
+  
+    
+    font-size:x-large;
+    animation-name: anima;
+    animation-duration: 6s;
+    animation-direction:right;
+    animation-iteration-count:initial;
+}
+.amor {
+    color: rgb(249, 248, 246);
+    text-align: right;
+    position: relative;
+        margin-top: 20px;
+
+    font-size:x-large;
+    animation-name: anima;
+    animation-duration: 8s;
+    animation-direction:right;
+    animation-iteration-count:initial;
+}
+.auda {
+    color: rgb(255, 255, 255);
+    text-align: left;
+    position: relative;
+      margin-top: 20px;
+
+  
+    
+    font-size:x-large;
+    animation-name: anima;
+    animation-duration: 6s;
+    animation-direction:right;
+    animation-iteration-count:initial;
+}
+.footer {
+    padding: 1px;
+    background-color: #e4d5d5;
+}
+.footer-content {
+    display:flex;
+    justify-content: space-between;
+}
+.txt p{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:justify;
+}
+.txt h3{
+    padding-bottom: 7px;
+    font-size: larger;
+    margin-top: -25px;
+}
+.txt img{
+    margin-right: 8px;
+    cursor:pointer;
+}
+
+.info p{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:justify;
+    margin-bottom: 10px;
+}
+.de p{
+    font-size: large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align:justify;
+    margin-top: 98px;
+}
+
+
+
+@media(max-width:991px){
+    .menu{
+        padding: 30px;
+    }
+    .menu label {
+        display: initial;
+    }
+    .menu .navbar {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: #323337;
+        display: none;
+    }
+    .menu .navbar ul li {
+        width: 100%;
+    }
+    #menu:checked ~ .navbar {
+        display: initial;
+    }
+    .footer {
+        padding: 30px;
+    }
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+}

@@ -1,0 +1,92 @@
+
+    .titulo{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 20px;
+    }
+    .slider-box{
+    width: 1250px;
+    height: auto;
+    margin: 50px auto 0;
+    overflow: hidden; 
+    margin-bottom: 33px;
+    }
+
+    .slider-box ul {
+    display: flex;
+    padding:0;
+    width: 400%;
+    animation: slide 30s infinite alternate ease-in-out;
+    }
+    .slider-box li {
+    width: 200%; 
+    list-style: none;
+    position: relative;
+    }
+    .slider-box h2 {
+        text-align:center;
+    }
+   
+
+    .texto{
+    text-align: justify;
+    position: absolute;
+    right: 100px;
+    padding:0 250px;
+    top: 200px;
+    color:#000000;
+    }
+    .texto p{
+        top: -230px;
+        position: absolute;
+        left: 30px;
+        margin-bottom: 35px;
+    }
+
+    .texto h2{
+    font-size: 45px;
+    margin-bottom: 35px;
+    }
+   
+    .slider-box img  {
+    position:relative ;
+    left: 100px;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    }
+    
+    @keyframes slide{
+    0%{margin-left: 0;}
+    20%{margin-left: 0;}
+    
+    
+    25%{margin-left: -100%;}
+    45%{margin-left: -100%;}
+    
+    
+    50%{margin-left: -200%;}
+        70%{margin-left: -200%;}
+            
+            75%{margin-left: -300%;}
+                100%{margin-left: -300%;}
+       }
+                
+                @media (max-width: 991px) {
+    .slider-box{
+    width: 50%;
+    height: 50%;
+    }
+    .texto{
+    top: 70%;
+    padding: 70%;
+    }
+    .texto h2{
+    font-size: 70%;
+    margin-bottom: 70%;
+    }
+    .texto p{
+        font-size: 70%;
+    }
+
+    }

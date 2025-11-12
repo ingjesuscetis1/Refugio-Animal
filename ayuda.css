@@ -1,0 +1,42 @@
+.header1 {
+  background-color: rgb(238, 193, 220);
+
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70px;
+    
+    align-items: center;
+  
+}
+.ayuda{
+    display: flex;
+  
+}
+.ima{
+    font-size: xx-large;
+    text-align: left;
+width: 40%;
+padding: 100px 25px 100px 100px;
+
+}
+.ima img{
+
+    height: 400px;
+}
+.texto{
+    padding: 100px 50px 100px 10px; 
+    width: 50%;
+    text-align: center;
+}
+.btn-2 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: #4f2e4a;
+    color: #f9fafc;
+    text-transform: uppercase;
+}
+
+.btn-2:hover {
+    background-color: #ecbfe3;
+}
